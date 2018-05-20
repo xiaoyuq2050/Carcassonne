@@ -1,0 +1,4 @@
+1. It's better to read the rationale with object model and interaction model.
+2. The appendix in rationale is for detailed clarification.
+3. For interaction model1, I only draw the interaction of validating a newly-placed tile, there should be subsequent methods called to place a follower and update the status of features. But I think the write up requires us to only include the validation process.
+4. For interaction model2, I only include the interaction of checking an adjacent cloister feature. There should be subsequent methods called to check status of other features in the implementation of the program.

@@ -1,0 +1,844 @@
+name: Tiles
+tilelist:
+  - segment: [road, farm, road, city]
+    imageID: D
+    roadFeature:
+      - neighborEdge: [up, down]
+    cityFeature:
+      - neighborEdge: [right]
+        vertexPos: [upright, downright]
+        banner: false
+    farmFeature:
+      - neighborEdge: [up, left, down]
+        vertexPos: [upleft, downleft]
+      - neighborEdge: [up, down]
+        vertexPos: [upright, downright]
+  
+  - segment: [farm, farm, road, farm]
+    imageID: A
+    roadFeature:
+      - neighborEdge: [down]
+    cloisterFeature: 
+      - neighborPos: [upleft, up, upright, left, right, downleft, down, downright]
+    farmFeature:
+      - neighborEdge: [up, left, down, right]
+        vertexPos: [upleft, upright, downleft, downright]
+  
+  - segment: [farm, farm, road, farm]
+    imageID: A
+    roadFeature:
+      - neighborEdge: [down]
+    cloisterFeature: 
+      - neighborPos: [upleft, up, upright, left, right, downleft, down, downright]
+    farmFeature:
+      - neighborEdge: [up, left, down, right]
+        vertexPos: [upleft, upright, downleft, downright]
+  
+  - segment: [farm, farm, farm, farm]
+    imageID: B
+    cloisterFeature:
+      - neighborPos: [upleft, up, upright, left, right, downleft, down, downright]
+    farmFeature:
+      - neighborEdge: [up, left, down, right]
+        vertexPos: [upleft, upright, downleft, downright]
+  
+  - segment: [farm, farm, farm, farm]
+    imageID: B
+    cloisterFeature:
+      - neighborPos: [upleft, up, upright, left, right, downleft, down, downright]
+    farmFeature:
+      - neighborEdge: [up, left, down, right]
+        vertexPos: [upleft, upright, downleft, downright]
+  
+  - segment: [farm, farm, farm, farm]
+    imageID: B
+    cloisterFeature:
+      - neighborPos: [upleft, up, upright, left, right, downleft, down, downright]
+    farmFeature:
+      - neighborEdge: [up, left, down, right]
+        vertexPos: [upleft, upright, downleft, downright]
+  
+  - segment: [farm, farm, farm, farm]
+    imageID: B
+    cloisterFeature:
+      - neighborPos: [upleft, up, upright, left, right, downleft, down, downright]
+    farmFeature:
+      - neighborEdge: [up, left, down, right]
+        vertexPos: [upleft, upright, downleft, downright]
+  
+  - segment: [city, city, city, city]
+    imageID: C
+    cityFeature:
+      - neighborEdge: [up, left, down, right]
+        vertexPos: [upleft, upright, downleft, downright]
+        banner: true
+  
+  - segment: [road, farm, road, city]
+    imageID: D
+    roadFeature:
+      - neighborEdge: [up, down]
+    cityFeature:
+      - neighborEdge: [right]
+        vertexPos: [upright, downright]
+        banner: false
+    farmFeature:
+      - neighborEdge: [up, left, down]
+        vertexPos: [upleft, downleft]
+      - neighborEdge: [up, down]
+        vertexPos: [upright, downright]
+  
+  - segment: [road, farm, road, city]
+    imageID: D
+    roadFeature:
+      - neighborEdge: [up, down]
+    cityFeature:
+      - neighborEdge: [right]
+        vertexPos: [upright, downright]
+        banner: false
+    farmFeature:
+      - neighborEdge: [up, left, down]
+        vertexPos: [upleft, downleft]
+      - neighborEdge: [up, down]
+        vertexPos: [upright, downright]
+  
+  - segment: [road, farm, road, city]
+    imageID: D
+    roadFeature:
+      - neighborEdge: [up, down]
+    cityFeature:
+      - neighborEdge: [right]
+        vertexPos: [upright, downright]
+        banner: false
+    farmFeature:
+      - neighborEdge: [up, left, down]
+        vertexPos: [upleft, downleft]
+      - neighborEdge: [up, down]
+        vertexPos: [upright, downright]
+  
+  - segment: [city, farm, farm, farm]
+    imageID: E
+    cityFeature:
+      - neighborEdge: [up]
+        vertexPos: [upleft, upright]
+        banner: false
+    farmFeature:
+      - neighborEdge: [left, down, right]
+        vertexPos: [upleft, downleft, upright, downright]
+  
+  - segment: [city, farm, farm, farm]
+    imageID: E
+    cityFeature:
+      - neighborEdge: [up]
+        vertexPos: [upleft, upright]
+        banner: false
+    farmFeature:
+      - neighborEdge: [left, down, right]
+        vertexPos: [upleft, downleft, upright, downright]
+  
+  - segment: [city, farm, farm, farm]
+    imageID: E
+    cityFeature:
+      - neighborEdge: [up]
+        vertexPos: [upleft, upright]
+        banner: false
+    farmFeature:
+      - neighborEdge: [left, down, right]
+        vertexPos: [upleft, downleft, upright, downright]
+  
+  - segment: [city, farm, farm, farm]
+    imageID: E
+    cityFeature:
+      - neighborEdge: [up]
+        vertexPos: [upleft, upright]
+        banner: false
+    farmFeature:
+      - neighborEdge: [left, down, right]
+        vertexPos: [upleft, downleft, upright, downright]
+  
+  - segment: [city, farm, farm, farm]
+    imageID: E
+    cityFeature:
+      - neighborEdge: [up]
+        vertexPos: [upleft, upright]
+        banner: false
+    farmFeature:
+      - neighborEdge: [left, down, right]
+        vertexPos: [upleft, downleft, upright, downright]
+  
+  - segment: [farm, city, farm, city]
+    imageID: F
+    cityFeature:
+      - neighborEdge: [left, right]
+        vertexPos: [upleft, upright, downleft, downright]
+        banner: true
+    farmFeature:
+      - neighborEdge: [up]
+        vertexPos: [upleft, upright]
+      - neighborEdge: [down]
+        vertexPos: [downleft, downright]
+  
+  - segment: [farm, city, farm, city]
+    imageID: F
+    cityFeature:
+      - neighborEdge: [left, right]
+        vertexPos: [upleft, upright, downleft, downright]
+        banner: true
+    farmFeature:
+      - neighborEdge: [up]
+        vertexPos: [upleft, upright]
+      - neighborEdge: [down]
+        vertexPos: [downleft, downright]
+  
+  - segment: [city, farm, city, farm]
+    imageID: G
+    cityFeature:
+      - neighborEdge: [up, down]
+        vertexPos: [upleft, upright, downleft, downright]
+        banner: false
+    farmFeature:
+      - neighborEdge: [left]
+        vertexPos: [upleft, downleft]
+      - neighborEdge: [right]
+        vertexPos: [upright, downright]
+  
+  - segment: [farm, city, farm, city]
+    imageID: H
+    cityFeature:
+      - neighborEdge: [left]
+        vertexPos: [upleft, downleft]
+        banner: false
+      - neighborEdge: [right]
+        vertexPos: [upright, downright]
+        banner: false
+    farmFeature:
+      - neighborEdge: [up, down]
+        vertexPos: [upleft, upright, downleft, downright]
+  
+  - segment: [farm, city, farm, city]
+    imageID: H
+    cityFeature:
+      - neighborEdge: [left]
+        vertexPos: [upleft, downleft]
+        banner: false
+      - neighborEdge: [right]
+        vertexPos: [upright, downright]
+        banner: false
+    farmFeature:
+      - neighborEdge: [up, down]
+        vertexPos: [upleft, upright, downleft, downright]
+  
+  - segment: [farm, city, farm, city]
+    imageID: H
+    cityFeature:
+      - neighborEdge: [left]
+        vertexPos: [upleft, downleft]
+        banner: false
+      - neighborEdge: [right]
+        vertexPos: [upright, downright]
+        banner: false
+    farmFeature:
+      - neighborEdge: [up, down]
+        vertexPos: [upleft, upright, downleft, downright]
+  
+  - segment: [farm, farm, city, city]
+    imageID: I
+    cityFeature:
+      - neighborEdge: [down]
+        vertexPos: [downleft, downright]
+        banner: false
+      - neighborEdge: [right]
+        vertexPos: [upright, downright]
+        banner: false
+    farmFeature:
+      - neighborEdge: [up, left]
+        vertexPos: [upleft, upright, downleft]
+  
+  - segment: [farm, farm, city, city]
+    imageID: I
+    cityFeature:
+      - neighborEdge: [down]
+        vertexPos: [downleft, downright]
+        banner: false
+      - neighborEdge: [right]
+        vertexPos: [upright, downright]
+        banner: false
+    farmFeature:
+      - neighborEdge: [up, left]
+        vertexPos: [upleft, upright, downleft]
+  
+  - segment: [city, farm, road, road]
+    imageID: J
+    roadFeature:
+      - neighborEdge: [down, right]
+    cityFeature:
+      - neighborEdge: [up]
+        vertexPos: [upleft, upright]
+    farmFeature:
+      - neighborEdge: [left, down, right]
+        vertexPos: [upleft, upright, downleft]
+      - neighborEdge: [down, right]
+        vertexPos: [downright]
+  
+  - segment: [city, farm, road, road]
+    imageID: J
+    roadFeature:
+      - neighborEdge: [down, right]
+    cityFeature:
+      - neighborEdge: [up]
+        vertexPos: [upleft, upright]
+    farmFeature:
+      - neighborEdge: [left, down, right]
+        vertexPos: [upleft, upright, downleft]
+      - neighborEdge: [down, right]
+        vertexPos: [downright]
+
+  - segment: [city, farm, road, road]
+    imageID: J
+    roadFeature:
+      - neighborEdge: [down, right]
+    cityFeature:
+      - neighborEdge: [up]
+        vertexPos: [upleft, upright]
+    farmFeature:
+      - neighborEdge: [left, down, right]
+        vertexPos: [upleft, upright, downleft]
+      - neighborEdge: [down, right]
+        vertexPos: [downright]
+
+  - segment: [road, road, farm, city]
+    imageID: K
+    roadFeature:
+      - neighborEdge: [up, left]
+    cityFeature:
+      - neighborEdge: [right]
+        vertexPos: [upright, downright]
+    farmFeature:
+      - neighborEdge: [up, left]
+        vertexPos: [upleft]
+      - neighborEdge: [up, left, down]
+        vertexPos: [upright, downleft, downright]
+  
+  - segment: [road, road, farm, city]
+    imageID: K
+    roadFeature:
+      - neighborEdge: [up, left]
+    cityFeature:
+      - neighborEdge: [right]
+        vertexPos: [upright, downright]
+    farmFeature:
+      - neighborEdge: [up, left]
+        vertexPos: [upleft]
+      - neighborEdge: [up, left, down]
+        vertexPos: [upright, downleft, downright]
+
+  - segment: [road, road, farm, city]
+    imageID: K
+    roadFeature:
+      - neighborEdge: [up, left]
+    cityFeature:
+      - neighborEdge: [right]
+        vertexPos: [upright, downright]
+    farmFeature:
+      - neighborEdge: [up, left]
+        vertexPos: [upleft]
+      - neighborEdge: [up, left, down]
+        vertexPos: [upright, downleft, downright]
+  
+  - segment: [road, road, road, city]
+    imageID: L
+    roadFeature:
+      - neighborEdge: [up]
+      - neighborEdge: [left]
+      - neighborEdge: [down]
+    cityFeature:
+      - neighborEdge: [right]
+        vertexPos: [upright, downright]
+        banner: false
+    farmFeature:
+      - neighborEdge: [up, left]
+        vertexPos: [upleft]
+      - neighborEdge: [left, down]
+        vertexPos: [downleft]
+      - neighborEdge: [up, down]
+        vertexPos: [upright, downright]
+  
+  - segment: [road, road, road, city]
+    imageID: L
+    roadFeature:
+      - neighborEdge: [up]
+      - neighborEdge: [left]
+      - neighborEdge: [down]
+    cityFeature:
+      - neighborEdge: [right]
+        vertexPos: [upright, downright]
+        banner: false
+    farmFeature:
+      - neighborEdge: [up, left]
+        vertexPos: [upleft]
+      - neighborEdge: [left, down]
+        vertexPos: [downleft]
+      - neighborEdge: [up, down]
+        vertexPos: [upright, downright]
+  
+  - segment: [road, road, road, city]
+    imageID: L
+    roadFeature:
+      - neighborEdge: [up]
+      - neighborEdge: [left]
+      - neighborEdge: [down]
+    cityFeature:
+      - neighborEdge: [right]
+        vertexPos: [upright, downright]
+        banner: false
+    farmFeature:
+      - neighborEdge: [up, left]
+        vertexPos: [upleft]
+      - neighborEdge: [left, down]
+        vertexPos: [downleft]
+      - neighborEdge: [up, down]
+        vertexPos: [upright, downright]
+  
+  - segment: [city, city, farm, farm]
+    imageID: M
+    cityFeature:
+      - neighborEdge: [up, left]
+        vertexPos: [upleft, upright, downleft]
+        banner: true
+    farmFeature:
+      - neighborEdge: [down, right]
+        vertexPos: [upright, downright, downleft]
+  
+  - segment: [city, city, farm, farm]
+    imageID: M
+    cityFeature:
+      - neighborEdge: [up, left]
+        vertexPos: [upleft, upright, downleft]
+        banner: true
+    farmFeature:
+      - neighborEdge: [down, right]
+        vertexPos: [upright, downright, downleft]
+  
+  - segment: [city, city, farm, farm]
+    imageID: NM
+    cityFeature:
+      - neighborEdge: [up, left]
+        vertexPos: [upleft, upright, downleft]
+        banner: false
+    farmFeature:
+      - neighborEdge: [down, right]
+        vertexPos: [upright, downright, downleft]
+  
+  - segment: [city, city, farm, farm]
+    imageID: NM
+    cityFeature:
+      - neighborEdge: [up, left]
+        vertexPos: [upleft, upright, downleft]
+        banner: false
+    farmFeature:
+      - neighborEdge: [down, right]
+        vertexPos: [upright, downright, downleft]
+
+  - segment: [city, city, farm, farm]
+    imageID: NM
+    cityFeature:
+      - neighborEdge: [up, left]
+        vertexPos: [upleft, upright, downleft]
+        banner: false
+    farmFeature:
+      - neighborEdge: [down, right]
+        vertexPos: [upright, downright, downleft]
+  
+  - segment: [city, city, road, road]
+    imageID: O
+    roadFeature:
+      - neighborEdge: [down, right]
+    cityFeature:
+      - neighborEdge: [up, left]
+        vertexPos: [upleft, upright, downleft]
+        banner: true
+    farmFeature:
+      - neighborEdge: [down, right]
+        vertexPos: [downleft, upright]
+      - neighborEdge: [down, right]
+        vertexPos: [downright]
+  
+  - segment: [city, city, road, road]
+    imageID: O
+    roadFeature:
+      - neighborEdge: [down, right]
+    cityFeature:
+      - neighborEdge: [up, left]
+        vertexPos: [upleft, upright, downleft]
+        banner: true
+    farmFeature:
+      - neighborEdge: [down, right]
+        vertexPos: [downleft, upright]
+      - neighborEdge: [down, right]
+        vertexPos: [downright]
+  
+  - segment: [city, city, road, road]
+    imageID: P
+    roadFeature:
+      - neighborEdge: [down, right]
+    cityFeature:
+      - neighborEdge: [up, left]
+        vertexPos: [upleft, upright, downleft]
+        banner: false
+    farmFeature:
+      - neighborEdge: [down, right]
+        vertexPos: [downleft, upright]
+      - neighborEdge: [down, right]
+        vertexPos: [downright]
+
+  - segment: [city, city, road, road]
+    imageID: P
+    roadFeature:
+      - neighborEdge: [down, right]
+    cityFeature:
+      - neighborEdge: [up, left]
+        vertexPos: [upleft, upright, downleft]
+        banner: false
+    farmFeature:
+      - neighborEdge: [down, right]
+        vertexPos: [downleft, upright]
+      - neighborEdge: [down, right]
+        vertexPos: [downright]
+  
+  - segment: [city, city, road, road]
+    imageID: P
+    roadFeature:
+      - neighborEdge: [down, right]
+    cityFeature:
+      - neighborEdge: [up, left]
+        vertexPos: [upleft, upright, downleft]
+        banner: false
+    farmFeature:
+      - neighborEdge: [down, right]
+        vertexPos: [downleft, upright]
+      - neighborEdge: [down, right]
+        vertexPos: [downright]
+  
+  - segment: [city, city, farm, city]
+    imageID: Q
+    cityFeature:
+      - neighborEdge: [up, left, right]
+        vertexPos: [upleft, upright, downleft, downright]
+        banner: true
+    farmFeature:
+      - neighborEdge: [down]
+        vertexPos: [downleft, downright]
+  
+  - segment: [city, city, farm, city]
+    imageID: R
+    cityFeature:
+      - neighborEdge: [up, left, right]
+        vertexPos: [upleft, upright, downleft, downright]
+        banner: false
+    farmFeature:
+      - neighborEdge: [down]
+        vertexPos: [downleft, downright]
+  
+  - segment: [city, city, farm, city]
+    imageID: R
+    cityFeature:
+      - neighborEdge: [up, left, right]
+        vertexPos: [upleft, upright, downleft, downright]
+        banner: false
+    farmFeature:
+      - neighborEdge: [down]
+        vertexPos: [downleft, downright]
+  
+  - segment: [city, city, farm, city]
+    imageID: R
+    cityFeature:
+      - neighborEdge: [up, left, right]
+        vertexPos: [upleft, upright, downleft, downright]
+        banner: false
+    farmFeature:
+      - neighborEdge: [down]
+        vertexPos: [downleft, downright]
+  
+  - segment: [city, city, road, city]
+    imageID: S
+    roadFeature:
+      - neighborEdge: [down]
+    cityFeature:
+      - neighborEdge: [up, left, right]
+        vertexPos: [upleft, upright, downleft, downright]
+        banner: true
+    farmFeature: 
+      - neighborEdge: [down]
+        vertexPos: [downleft]
+      - neighborEdge: [down]
+        vertexPos: [downright]
+  
+  - segment: [city, city, road, city]
+    imageID: S
+    roadFeature:
+      - neighborEdge: [down]
+    cityFeature:
+      - neighborEdge: [up, left, right]
+        vertexPos: [upleft, upright, downleft, downright]
+        banner: true
+    farmFeature: 
+      - neighborEdge: [down]
+        vertexPos: [downleft]
+      - neighborEdge: [down]
+        vertexPos: [downright]
+  
+  - segment: [city, city, road, city]
+    imageID: T
+    roadFeature:
+      - neighborEdge: [down]
+    cityFeature:
+      - neighborEdge: [up, left, right]
+        vertexPos: [upleft, upright, downleft, downright]
+        banner: false
+    farmFeature: 
+      - neighborEdge: [down]
+        vertexPos: [downleft]
+      - neighborEdge: [down]
+        vertexPos: [downright]
+  
+  - segment: [road, farm, road, farm]
+    imageID: U
+    roadFeature:
+      - neighborEdge: [up, down]
+    farmFeature:
+      - neighborEdge: [up, left, down]
+        vertexPos: [upleft, downleft]
+      - neighborEdge: [up, right, down]
+        vertexPos: [upright, downright]
+  
+  - segment: [road, farm, road, farm]
+    imageID: U
+    roadFeature:
+      - neighborEdge: [up, down]
+    farmFeature:
+      - neighborEdge: [up, left, down]
+        vertexPos: [upleft, downleft]
+      - neighborEdge: [up, right, down]
+        vertexPos: [upright, downright]
+  
+  - segment: [road, farm, road, farm]
+    imageID: U
+    roadFeature:
+      - neighborEdge: [up, down]
+    farmFeature:
+      - neighborEdge: [up, left, down]
+        vertexPos: [upleft, downleft]
+      - neighborEdge: [up, right, down]
+        vertexPos: [upright, downright]
+  
+  - segment: [road, farm, road, farm]
+    imageID: U
+    roadFeature:
+      - neighborEdge: [up, down]
+    farmFeature:
+      - neighborEdge: [up, left, down]
+        vertexPos: [upleft, downleft]
+      - neighborEdge: [up, right, down]
+        vertexPos: [upright, downright]
+  
+  - segment: [road, farm, road, farm]
+    imageID: U
+    roadFeature:
+      - neighborEdge: [up, down]
+    farmFeature:
+      - neighborEdge: [up, left, down]
+        vertexPos: [upleft, downleft]
+      - neighborEdge: [up, right, down]
+        vertexPos: [upright, downright]
+  
+  - segment: [road, farm, road, farm]
+    imageID: U
+    roadFeature:
+      - neighborEdge: [up, down]
+    farmFeature:
+      - neighborEdge: [up, left, down]
+        vertexPos: [upleft, downleft]
+      - neighborEdge: [up, right, down]
+        vertexPos: [upright, downright]
+  
+  - segment: [road, farm, road, farm]
+    imageID: U
+    roadFeature:
+      - neighborEdge: [up, down]
+    farmFeature:
+      - neighborEdge: [up, left, down]
+        vertexPos: [upleft, downleft]
+      - neighborEdge: [up, right, down]
+        vertexPos: [upright, downright]
+  
+  - segment: [road, farm, road, farm]
+    imageID: U
+    roadFeature:
+      - neighborEdge: [up, down]
+    farmFeature:
+      - neighborEdge: [up, left, down]
+        vertexPos: [upleft, downleft]
+      - neighborEdge: [up, right, down]
+        vertexPos: [upright, downright]
+  
+  - segment: [farm, road, road, farm]
+    imageID: V
+    roadFeature:
+      - neighborEdge: [left, down]
+    farmFeature:
+      - neighborEdge: [left, down]
+        vertexPos: [downleft]
+      - neighborEdge: [up, left, down, right]
+        vertexPos: [upleft, upright, downright]
+  
+  - segment: [farm, road, road, farm]
+    imageID: V
+    roadFeature:
+      - neighborEdge: [left, down]
+    farmFeature:
+      - neighborEdge: [left, down]
+        vertexPos: [downleft]
+      - neighborEdge: [up, left, down, right]
+        vertexPos: [upleft, upright, downright]
+  
+  - segment: [farm, road, road, farm]
+    imageID: V
+    roadFeature:
+      - neighborEdge: [left, down]
+    farmFeature:
+      - neighborEdge: [left, down]
+        vertexPos: [downleft]
+      - neighborEdge: [up, left, down, right]
+        vertexPos: [upleft, upright, downright]
+  
+  - segment: [farm, road, road, farm]
+    imageID: V
+    roadFeature:
+      - neighborEdge: [left, down]
+    farmFeature:
+      - neighborEdge: [left, down]
+        vertexPos: [downleft]
+      - neighborEdge: [up, left, down, right]
+        vertexPos: [upleft, upright, downright]
+  
+  - segment: [farm, road, road, farm]
+    imageID: V
+    roadFeature:
+      - neighborEdge: [left, down]
+    farmFeature:
+      - neighborEdge: [left, down]
+        vertexPos: [downleft]
+      - neighborEdge: [up, left, down, right]
+        vertexPos: [upleft, upright, downright]
+  
+  - segment: [farm, road, road, farm]
+    imageID: V
+    roadFeature:
+      - neighborEdge: [left, down]
+    farmFeature:
+      - neighborEdge: [left, down]
+        vertexPos: [downleft]
+      - neighborEdge: [up, left, down, right]
+        vertexPos: [upleft, upright, downright]
+  
+  - segment: [farm, road, road, farm]
+    imageID: V
+    roadFeature:
+      - neighborEdge: [left, down]
+    farmFeature:
+      - neighborEdge: [left, down]
+        vertexPos: [downleft]
+      - neighborEdge: [up, left, down, right]
+        vertexPos: [upleft, upright, downright]
+  
+  - segment: [farm, road, road, farm]
+    imageID: V
+    roadFeature:
+      - neighborEdge: [left, down]
+    farmFeature:
+      - neighborEdge: [left, down]
+        vertexPos: [downleft]
+      - neighborEdge: [up, left, down, right]
+        vertexPos: [upleft, upright, downright]
+  
+  - segment: [farm, road, road, farm]
+    imageID: V
+    roadFeature:
+      - neighborEdge: [left, down]
+    farmFeature:
+      - neighborEdge: [left, down]
+        vertexPos: [downleft]
+      - neighborEdge: [up, left, down, right]
+        vertexPos: [upleft, upright, downright]
+  
+  - segment: [farm, road, road, road]
+    imageID: W
+    roadFeature:
+      - neighborEdge: [left]
+      - neighborEdge: [down]
+      - neighborEdge: [right]
+    farmFeature:
+      - neighborEdge: [up, left, right]
+        vertexPos: [upleft, upright]
+      - neighborEdge: [left, down]
+        vertexPos: [downleft]
+      - neighborEdge: [down, right]
+        vertexPos: [downright]
+  
+  - segment: [farm, road, road, road]
+    imageID: W
+    roadFeature:
+      - neighborEdge: [left]
+      - neighborEdge: [down]
+      - neighborEdge: [right]
+    farmFeature:
+      - neighborEdge: [up, left, right]
+        vertexPos: [upleft, upright]
+      - neighborEdge: [left, down]
+        vertexPos: [downleft]
+      - neighborEdge: [down, right]
+        vertexPos: [downright]
+  
+  - segment: [farm, road, road, road]
+    imageID: W
+    roadFeature:
+      - neighborEdge: [left]
+      - neighborEdge: [down]
+      - neighborEdge: [right]
+    farmFeature:
+      - neighborEdge: [up, left, right]
+        vertexPos: [upleft, upright]
+      - neighborEdge: [left, down]
+        vertexPos: [downleft]
+      - neighborEdge: [down, right]
+        vertexPos: [downright]
+  
+  - segment: [farm, road, road, road]
+    imageID: W
+    roadFeature:
+      - neighborEdge: [left]
+      - neighborEdge: [down]
+      - neighborEdge: [right]
+    farmFeature:
+      - neighborEdge: [up, left, right]
+        vertexPos: [upleft, upright]
+      - neighborEdge: [left, down]
+        vertexPos: [downleft]
+      - neighborEdge: [down, right]
+        vertexPos: [downright]
+
+  - segment: [road, road, road, road]
+    imageID: X
+    roadFeature:
+      - neighborEdge: [up]
+      - neighborEdge: [left]
+      - neighborEdge: [down]
+      - neighborEdge: [right]
+    farmFeature:
+      - neighborEdge: [up, left]
+        vertexPos: [upleft]
+      - neighborEdge: [up, right]
+        vertexPos: [upright]
+      - neighborEdge: [down, left]
+        vertexPos: [downleft]
+      - neighborEdge: [down, right]
+        vertexPos: [downright]
